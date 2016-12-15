@@ -1,0 +1,69 @@
+{
+<<<<<<< HEAD
+    "name": "tlk-doc",
+    "author": "tolokoban",
+    "description": "Create documentation for Javascript modules",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tolokoban/tlk-doc.git"
+    },
+    "homepage": "https://tolokoban.github.io/tlk-doc",
+    "license": "GPL-3.0",
+    "scripts": {
+        "test": "node node_modules/karma/bin/karma start karma.conf.js",
+        "test:dbg": "node --debug-brk node_modules/karma/bin/karma start karma.conf.js",
+        "debug": "node node_modules/toloframework/bin/tfw.js build debug test php watch",
+        "clean": "node node_modules/toloframework/bin/tfw.js clean",
+        "release": "node node_modules/toloframework/bin/tfw.js build version php clean"
+    },
+    "bugs": {
+        "url": "https://github.com/tolokoban/tlk-doc/issues"
+    },
+    "tfw": {
+        "resources": [],
+        "modules": [],
+        "compile": {
+            "type": "firefoxos",
+            "files": [ "\\.html$" ]
+        },
+        "output": "www"
+    },
+    "version": "0.0.1",
+    "reservedModules": [],
+    "dependencies": {
+        "jasmine-core": "^2.4",
+        "karma": "^0.13",
+        "karma-chrome-launcher": "^0.2",
+        "karma-firefox-launcher": "^0.1",
+        "karma-jasmine": "^0.3.6",
+        "toloframework": "^0.39"
+    }
+=======
+  "name": "tlk-doc",
+  "version": "0.1.0",
+  "description": "Simple library to parse in-comment coummentation like JavaDoc or JSDoc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolokoban/tlk-doc.git"
+  },
+  "keywords": [
+    "JSDoc",
+    "comments",
+    "parser",
+    "tolokoban"
+  ],
+  "author": "Tolokoban",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tolokoban/tlk-doc/issues"
+  },
+  "homepage": "https://github.com/tolokoban/tlk-doc#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2"
+  }
+>>>>>>> d7548bbf0747fa8bcdc6fbb3fac532b0949f8949
+}

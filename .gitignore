@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-npm-debug.log*
+NPM-Debug.log*
 
 # Runtime data
 pids
@@ -35,3 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Emacs
+*~
+.#*

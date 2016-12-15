@@ -1,10 +1,10 @@
 {
   "name": "tlk-doc",
   "version": "0.1.0",
-  "description": "Simple library to parse in-comment documentation (like JavaDoc or JSDoc) by ignoring actual code.",
+  "description": "Simple library to parse in-comment coummentation like JavaDoc or JSDoc.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
