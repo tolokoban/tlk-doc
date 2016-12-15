@@ -1,0 +1,28 @@
+{
+  "name": "tlk-doc",
+  "version": "0.1.0",
+  "description": "Simple library to parse in-comment coummentation like JavaDoc or JSDoc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolokoban/tlk-doc.git"
+  },
+  "keywords": [
+    "JSDoc",
+    "comments",
+    "parser",
+    "tolokoban"
+  ],
+  "author": "Tolokoban",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tolokoban/tlk-doc/issues"
+  },
+  "homepage": "https://github.com/tolokoban/tlk-doc#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2"
+  }
+}
