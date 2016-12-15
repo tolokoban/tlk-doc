@@ -1,0 +1,34 @@
+/**
+ * @module
+ * 
+ */
+"use strict";
+
+/**
+ * @export function
+ * Extract all the useful comments from a Javascript source.
+ * @param {string} source - Source code written in Javascript.
+ */
+module.exports = function( source ) {
+    var parser = new ParserJS( source );
+    return parser.comments;
+};
+
+
+function ParserJS( source ) {
+    this._source = source;
+    this._length = source.length;
+    this._cursor = 0;
+}
+
+/**
+ * @member ParseJs.garbage
+ * @param 
+ */
+ParseJs.prototype.garbage = function() {
+    this.until({
+        "'": this.simpleQuote,
+        '"': this.doubleQuote,
+        '/': this.slash
+    });
+};
